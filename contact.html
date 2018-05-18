@@ -8,29 +8,39 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
-<body>
+<body background="assets/images/light-veneer.png">
+    <div class="content">
+
     <div class="top-banner">
-        <h1>Stephen Dawe</h1>
-        <a class="link" href="index.html">About</a>
-        <a class = "link" href="portfolio.html">Portfolio</a>
-        <a class = "link" href="contact.html">Contact</a>
-    </div>
+            <div class="container">
+                <h1 class="your-name">Stephen Dawe</h1>
+                <a class = "link" href="contact.html">Contact</a>
+                <a class = "link" href="portfolio.html">Portfolio</a>
+                <a class="link" href="index.html">About</a>
+            </div>
+            
+        </div>
 
-    <div class="Contact">
-        <section class="header">
-            Contact
+        <div class="about-me">
+            <section class="header">
+                Contact
+            </section>
+            <section id="form">
+            <form>
+                <p class="c-head">Name</p>
+                <input class="message-box" type="text" name="fname" placeholder="John Smith">
+                <p class="c-head">Email</p>
+                <input class="message-box" type="text" name="Email" placeholder="example@gmail.com">
+                <p class="c-head">Message</p>
+                <input id="message-box" type="text" name="message">
+                <button id="button" type="button" onclick="alert('Hello world!')">Click Me!</button>
+            </form>
         </section>
-        <form>
-            <p>Name</p>
-            <input type="text" name="fname" placeholder="John Smith">
-            <p>Email</p>
-            <input type="text" name="Email" placeholder="example@gmail.com">
-            <p>Message</p>
-            <input type="text" name="message">
-        </form>
     </div>
-
-    <footer>Copyright</footer>
+</div>
+    <footer class="footer">
+        <p class="footer-content">Copyright©</p>
+   </footer>
     
 </body>
 </html>
